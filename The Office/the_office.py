@@ -2,7 +2,9 @@ import matplotlib.pyplot as plt
 import pandas as pd
 import numpy as np
 
+
 data = pd.read_csv('./the_office_series.csv')
+
 
 # Adding a column with colors according to the scaled ratings
 color_conditions = [
